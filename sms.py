@@ -194,7 +194,6 @@ def BBot(phone, amount):
         
 @bot.event
 async def on_connect():
-    print(f"รอกำลังล็อกอินบอท : {bot.uaser}")
     time.sleep(0.001)
     print("ล็อกอินสำเร็จ")
     
